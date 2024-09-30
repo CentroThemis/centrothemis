@@ -6,7 +6,7 @@ import { Container, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap'
 const ComNavbar = () => {
     return(
     <>
-        <Navbar expand="lg" bg='success' data-bs-theme="dark" sticky='top'>
+        <Navbar expand="lg" bg='danger' data-bs-theme="dark" sticky='top'>
             <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar-nav"/>

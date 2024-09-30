@@ -1,6 +1,37 @@
+@import "../components/custombootstrap.scss";
+
+$background-color: #C8E6FD;
+
 .banner{
-    p{
-        color: green;
+    .container{
+        position: relative;
+        z-index: 1;
+        height: 422px;
+        width: auto;
+        background-color: $background-color;
+        border-radius: 10px;
+        h2{
+            position: absolute;
+            height: 422px;
+            width: 50%;
+            padding: 95px 0;
+            margin-left: 120px;
+            z-index: 3;
+            size: 32px;
+            font-weight: 400;
+            line-height: 43px;
+            .Button{
+                color: white;
+            }
+        }
+        img{
+            position: absolute;
+            z-index: 2;
+            height: 422px;
+            width: auto;
+            right: 0;
+            border-radius: 10px;
+        }
     }
 }
 
